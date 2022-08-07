@@ -29,7 +29,6 @@
     grid-gap: 18px;
 }
 .grid--image{
-    background-color: #3498db;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -42,10 +41,76 @@
     border-radius: 5px;
 }
 .grid--content{
-    height: 200px;
-    background-color: chartreuse;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.location--icon{
+    margin-left: 8px;
+    align-self: center;
+}
+
+.location--info{
+    display: flex;
+    align-items: center;
 
 }
+.location--name{
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.google--maps_text{
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+.country--title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top:12px;
+    margin-left: 8px;
+}
+.date--text{
+    margin-left: 8px;
+    font-weight: 700;
+    margin-top: 24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+.description{
+    font-weight: 400;
+    line-height: 150%;
+    color: #2B283A;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
